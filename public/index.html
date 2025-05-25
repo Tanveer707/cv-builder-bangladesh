@@ -1,0 +1,196 @@
+&lt;!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV Builder - Bangladesh | Create ATS-Optimized CVs</title>
+    <meta name="description" content="Create professional, ATS-optimized CVs tailored for Bangladesh job market. Multiple themes, bilingual support (English & Bengali), and AI-powered suggestions.">
+    <meta name="keywords" content="CV builder, resume builder, Bangladesh jobs, ATS optimized, bilingual CV, professional resume">
+    <meta name="author" content="CV Builder Bangladesh">
+    
+    &lt;!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="Professional CV Builder - Bangladesh">
+    <meta property="og:description" content="Create professional, ATS-optimized CVs tailored for Bangladesh job market.">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+
+    &lt;!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.com/">
+    <meta property="twitter:title" content="Professional CV Builder - Bangladesh">
+    <meta property="twitter:description" content="Create professional, ATS-optimized CVs tailored for Bangladesh job market.">
+    <meta property="twitter:image" content="https://yourdomain.com/og-image.jpg">
+
+    &lt;!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    &lt;!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    &lt;!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    &lt;!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Professional CV Builder - Bangladesh",
+        "description": "Create professional, ATS-optimized CVs tailored for Bangladesh job market with multiple themes and bilingual support.",
+        "url": "https://yourdomain.com",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "ATS-optimized templates",
+            "Multiple professional themes",
+            "Bilingual support (English & Bengali)",
+            "AI-powered content suggestions",
+            "PDF and Word export",
+            "Real-time preview"
+        ]
+    }
+    </script>
+
+    <style>
+        /* Loading screen styles */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #44318D 0%, #2A1B3D 30%, #44318D 60%, #D83F87 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease-out;
+        }
+        
+        .loading-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loading-logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        .loading-text {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .loading-subtitle {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #D83F87;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-top: 20px;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Hide scrollbar during loading */
+        body.loading {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="loading">
+    &lt;!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <svg class="loading-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#D83F87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="14,2 14,8 20,8" stroke="#D83F87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="16" y1="13" x2="8" y2="13" stroke="#D83F87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="16" y1="17" x2="8" y2="17" stroke="#D83F87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="10,9 9,9 8,9" stroke="#D83F87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="loading-text">CV Builder Bangladesh</div>
+        <div class="loading-subtitle">Creating your professional future...</div>
+        <div class="loading-spinner"></div>
+    </div>
+
+    &lt;!-- Next.js App Root -->
+    <div id="__next"></div>
+
+    &lt;!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #44318D 0%, #2A1B3D 30%, #44318D 60%, #D83F87 100%); display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; font-family: Arial, sans-serif; text-align: center; z-index: 10000;">
+            <h1 style="font-size: 32px; margin-bottom: 20px;">CV Builder Bangladesh</h1>
+            <p style="font-size: 18px; margin-bottom: 20px;">Please enable JavaScript to use this application.</p>
+            <p style="font-size: 16px; opacity: 0.8;">This CV builder requires JavaScript to provide the best experience.</p>
+        </div>
+    </noscript>
+
+    &lt;!-- Loading Script -->
+    <script>
+        // Hide loading screen when page is fully loaded
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loadingScreen = document.getElementById('loading-screen');
+                const body = document.body;
+                
+                if (loadingScreen) {
+                    loadingScreen.classList.add('hidden');
+                    body.classList.remove('loading');
+                    
+                    // Remove loading screen from DOM after transition
+                    setTimeout(function() {
+                        if (loadingScreen.parentNode) {
+                            loadingScreen.parentNode.removeChild(loadingScreen);
+                        }
+                    }, 500);
+                }
+            }, 1000); // Show loading for at least 1 second
+        });
+
+        // Analytics and tracking (replace with your actual analytics code)
+        // Google Analytics example:
+        /*
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'YOUR_TRACKING_ID', 'auto');
+        ga('send', 'pageview');
+        */
+    </script>
+</body>
+</html>
